@@ -39,7 +39,7 @@ def convolution(image, kernel):
             output[row, col] = conv_helper(
                                 image[row:row + kernel_row, 
                                 col:col + kernel_col],kernel)
-    print(output)
+    print(output)  #se coloca el print para imprimir al final del call de la funcion
 
 if __name__ == '__main__':
 
@@ -53,5 +53,5 @@ if __name__ == '__main__':
                     [0,0,0],
                     [4,0,5]]) 
                     
-
-convolution(image, filter)
+                    
+convolution(image, filter) 
