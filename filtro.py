@@ -42,7 +42,7 @@ def convolution(image, kernel):
 
 if __name__ == '__main__':
 
-    image = cv2.imread("index.jpg")
+    image = cv2.imread("casita.jpg")
 
     filter = np.array([[1/9,1/9,1/9],
                     [1/9,1/9,1/9],
