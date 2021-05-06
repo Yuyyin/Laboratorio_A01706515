@@ -48,7 +48,7 @@ def convolution(image, kernel):
                                 image[row:row + kernel_row, 
                                 col:col + kernel_col],kernel)
     plt.imshow(output, cmap='gray')
-    plt.title("vale verga profe")
+    plt.title("Filtro aplicado")
     plt.show()
     
     return output
@@ -57,9 +57,9 @@ if __name__ == '__main__':
 
     image = cv2.imread("index.jpg")
 
-    filter = np.array([[2,-1,-1],
-                    [-1,2,-1],
-                    [-1,-1,2]]) 
+    filter = np.array([[-1,-1,-1],
+                    [2,2,2],
+                    [-1,-1,-1]]) 
 
 print("Filter: ")
 print(filter)
