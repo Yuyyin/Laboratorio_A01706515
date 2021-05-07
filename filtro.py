@@ -54,7 +54,7 @@ def convolution(image, kernel):
     return output
 
 if __name__ == '__main__':
-
+#imagen de prueba.
     image = cv2.imread("index.jpg")
 
     filter = np.array([[-1,-1,-1],
@@ -62,5 +62,5 @@ if __name__ == '__main__':
                     [-1,-1,-1]]) 
 
 print("Filter: ")
-print(filter)
-convolution(image, filter) 
+print(filter) #se impmrime la matriz de filtro
+convolution(image, filter) # Se manda a llamar la funcion
