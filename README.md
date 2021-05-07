@@ -50,4 +50,3 @@ Se uso git para el versionado, pero para ver las actualizaciones del repositorio
 
 * Gracias por visitar el repositorio, espero puedas encontrarlo algo que te sirva en lo que estés buscando.
 *Gracias a la semana tec:Herramientas computacionales: el arte de la programación (Gpo 120), por que con ella se desarrollo el uso de git hub mediante la implementación de un proyecto en este caso fue el de la convolutions con imágenes y matrices.
--git
